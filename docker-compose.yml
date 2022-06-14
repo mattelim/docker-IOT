@@ -27,9 +27,6 @@ services:
     ports:
       - "1880:1880"
       - "1883:1883"
-#    expose:
-#      - "1880"
-#      - "1883"
     volumes:
       - "node-red-data:/data"
 

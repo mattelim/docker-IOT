@@ -43,7 +43,7 @@ To connect it to the influxdb database the 'influxdb' hostname can be used: http
 Node red configuration has to be done in the docker volume itself.
 
 ### MQTT
-The mosquitto configuration has to be done in the docker volume itself.
+Install Aedes through node-red itself
 
 ## TODO
 - Add node-red password setup to the run.sh script
