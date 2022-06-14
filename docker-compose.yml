@@ -1,0 +1,39 @@
+version: "3"
+services: 
+  influxdb:
+    image: influxdb:1.8.10
+    container_name: influxdb
+    ports:
+      - "8086:8086"        
+    env_file:
+      - 'influxdb.env'
+    volumes:
+      - "influxdb-data:/var/lib/influxdb"
+
+  grafana:
+    image: grafana/grafana-oss:8.5.5
+    container_name: grafana
+    ports:
+      - "3000:3000"
+    env_file:
+      - 'grafana.env'
+    user: "0"
+    volumes:
+      - "grafana-data:/var/lib/grafana"
+  
+  node-red:
+    image: nodered/node-red:2.2.2
+    container_name: node-red
+    ports:
+      - "1880:1880"
+      - "1883:1883"
+#    expose:
+#      - "1880"
+#      - "1883"
+    volumes:
+      - "node-red-data:/data"
+
+volumes:
+  influxdb-data:
+  grafana-data:        
+  node-red-data:
