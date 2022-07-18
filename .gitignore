@@ -1,1 +1,5 @@
 /backups/*
+/notes/*
+/nodeapp/*
+
+docker-IOT.code-workspace

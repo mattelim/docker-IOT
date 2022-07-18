@@ -20,6 +20,7 @@ services:
     user: "0"
     volumes:
       - "grafana-data:/var/lib/grafana"
+      - "./grafana-plugins:/var/lib/grafana/plugins"
   
   node-red:
     image: nodered/node-red:2.2.2
@@ -30,7 +31,23 @@ services:
     volumes:
       - "node-red-data:/data"
 
+  node:
+    image: "node:16"
+    container_name: nodejs
+    user: "node"
+    working_dir: /nodeapp/
+    environment:
+      - NODE_ENV=production
+    volumes:
+      - "./nodeapp/:/nodeapp/"
+    ports:
+      - "8081:8081"
+    expose:
+      - "8081"
+    command: "npm start"
+
 volumes:
   influxdb-data:
   grafana-data:        
   node-red-data:
+  nodejs-data:

@@ -1,0 +1,41 @@
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+{
+  "manifestVersion": "2.0.0",
+  "signatureType": "community",
+  "signedByOrg": "grafana",
+  "signedByOrgName": "Grafana Labs",
+  "plugin": "bessler-pictureit-panel",
+  "version": "1.0.1",
+  "time": 1622740829028,
+  "keyId": "7e4d0c6a708866e7",
+  "files": {
+    "pictureit_ctrl.js": "30677d5dd16f56b2eb87db4bd77a64553247a3b293b208a12406a28a26c9eab5",
+    "pictureit_ctrl.js.map": "0b94d82163be365672d65c23d80ada918b40df3981c2c82a18c672da84f3a425",
+    "angular-sprintf.js": "3cbc96f909ba4cd368b6528abff07111f6bb30f691f8dc05c7f99dd80c1b87ce",
+    "module.html": "377a94e207eb5d18e26a36a355bc676380b0584e0d1a164937e407bac9fa5e25",
+    "sprintf.js.map": "dd0aee5f41ee24c8893acefc2b7a0a3d9e4c792ec26d1fec1726ade03653c585",
+    "editor.html": "54004eede355b052855aecca2a4b038bfdd2f61c70052d58f9eefb659fe9cc0b",
+    "module.js.map": "de55c860b134af81c6ccee85a0b7dce60612871a4115543754ce029583e01d6b",
+    "plugin.json": "a8543a624957e703193504485af772dfba8456c1f1f8758f1c2081260cb779a2",
+    "angular-sprintf.js.map": "d384fd436187ee9ab409e88cebea2763aa448b2b4e27ff553d7b482a146e4d0f",
+    "README.md": "b66642d020711b4d95bb12453e54b6d8ac05412c636723e50d672f1e46204b02",
+    "img/settings.png": "ecc7722291ea73695b1b6e6c8bd25851fa723af0dafb58fd4e2712ef803eb854",
+    "img/bridge_strains.png": "69c9c5f2f1b02f2a952cfa1e0edbb6c346ed99d1729e6e2106dbeb33096d6176",
+    "img/pictureit_logo.png": "46d65af5dcbc1d736c2795ded9d2019fd0356d276c9fb86249a5fe04cc4f402e",
+    "module.js": "1307dcf68834e87db5e1be675d4296b29d6a125e79ce5e7f30d434e4e884e650",
+    "sprintf.js": "bf97111c3b5304e174630edcc56e427aff6b39de9389eaf307375d82e44171ea"
+  }
+}
+-----BEGIN PGP SIGNATURE-----
+Version: OpenPGP.js v4.10.1
+Comment: https://openpgpjs.org
+
+wqEEARMKAAYFAmC5D10ACgkQfk0ManCIZufljAIDBfvlpqbJ7ixcIcXt+j+R
+54GmPwmzTTtViBubA0sTgw2rWjTz5wzLC3FyJefcIMGDB33kY/yXEO/yQu2d
+5owuSFgCCQGBfuwIKblmT46YtoBy3j9j5pItrqTEBLH0ILYcOaFb5v7Xvq6n
+zj4b5AGhRGcXPlUes/TMkuaICY6nFdUCPmTlVg==
+=7WTQ
+-----END PGP SIGNATURE-----
